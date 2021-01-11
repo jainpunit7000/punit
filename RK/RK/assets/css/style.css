@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: #002366;
+  color: #002366; 
 }
 
 a:hover {
@@ -30,7 +30,7 @@ a:hover {
   border-radius: 3px;
   right: 15px;
   bottom: 15px;
-  background: #fff;
+  background: #013aa5;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -120,9 +120,24 @@ a:hover {
 .strip_menu li {
   font-size: 0.8rem;
   padding: 0.5rem 1rem;
+  /* border-right: 1px solid rgba(212, 212, 212, 0.815); */
+}
+.strip_menu_alt {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.strip_menu_alt li {
+  font-size: 0.8rem;
+  padding: 0.5rem 1rem;
   border-right: 1px solid rgba(212, 212, 212, 0.815);
 }
-
+.vertical-rule{
+  border-left: 1px solid rgba(212, 212, 212, 0.815);
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -259,8 +274,8 @@ a:hover {
 
 /* Carousel */
 #carousel .carousel-item {
-  height:80vh;
-
+  height:83vh;
+  background: #002366;;
 }
 .owl-carousel{
   padding:2rem;
